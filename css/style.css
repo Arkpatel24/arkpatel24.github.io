@@ -775,6 +775,25 @@ a, a:hover {
   font-size: 33px;
   color: #fff;
 }
+.a {
+  position: relative;
+  font-size: 33px;
+  color: #fff;
+}
+ .a::after {
+position: absolute;
+color: red;
+animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 
 @media (max-width: 991.98px) {
   .cover-v1 .subheading {

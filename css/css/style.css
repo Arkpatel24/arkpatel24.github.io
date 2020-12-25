@@ -1491,3 +1491,12 @@ span.error {
     height: 100%;
     border: 1px solid red;
     background: #000; }
+    
+    .change_text {
+      content: 'A Software Developer';
+      font-style: italic;
+    }
+    .change_text:after {
+      content: 'A web Developer';
+      background-color: #8cba51;
+    }
